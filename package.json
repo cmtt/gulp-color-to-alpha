@@ -1,0 +1,33 @@
+{
+  "name": "gulp-color-to-alpha",
+  "version": "0.0.0",
+  "description": "Removes the color from the given images.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmtt/gulp-color-to-alpha.git"
+  },
+  "keywords": [
+    "Remove",
+    "color",
+    "transparency",
+    "alpha",
+    "channel",
+    "image",
+    "manipulation",
+    "keying"
+  ],
+  "author": "Matthias Thoemmes <git@gmx.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmtt/gulp-color-to-alpha/issues"
+  },
+  "homepage": "https://github.com/cmtt/gulp-color-to-alpha",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-mocha": "^2.0.0"
+  }
+}
