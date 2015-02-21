@@ -1,6 +1,6 @@
 {
   "name": "gulp-color-to-alpha",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Removes the color from the given images.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "https://github.com/cmtt/gulp-color-to-alpha.git"
   },
   "keywords": [
-    "Remove",
+    "remove",
     "color",
     "transparency",
     "alpha",
@@ -27,7 +27,13 @@
   },
   "homepage": "https://github.com/cmtt/gulp-color-to-alpha",
   "devDependencies": {
-    "gulp": "^3.8.11",
-    "gulp-mocha": "^2.0.0"
+    "gulp": "~3.8.11",
+    "gulp-mocha": "~2.0.0"
+  },
+  "dependencies": {
+    "canvas": "^1.2.1",
+    "color-to-alpha": "0.0.1",
+    "gulp-util": "^3.0.3",
+    "through2": "^0.6.3"
   }
 }
